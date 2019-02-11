@@ -24,5 +24,6 @@ namespace :db do
   end
   
   task :seed => :environment do
+    
   end
 end
