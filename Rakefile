@@ -23,6 +23,6 @@ namespace :db do
     Student.create_table
   end
   
-  task :seed
+  task :seed => :environment do
   end
 end
